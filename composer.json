@@ -1,0 +1,21 @@
+{
+    "name": "jcab/composer-check-cwd-plugin",
+    "type": "composer-plugin",
+    "description": "Composer plugin checking for composer.json file in the current working directory",
+    "license": "MIT",
+    "authors": [{
+        "name": "Julien Cabanès",
+        "email": "julien.c@icloud.com"
+    }],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "extra": {
+        "class": "CheckCwdPlugin"
+    },
+    "autoload": {
+        "psr-0": {
+            "CheckCwdPlugin": ""
+        }
+    }
+}
