@@ -10,6 +10,9 @@
     "require": {
         "composer-plugin-api": "^1.0"
     },
+    "extra": {
+        "class": "CheckCwdPlugin"
+    },
     "autoload": {
         "classmap": [
             "CheckCwdPlugin.php"
